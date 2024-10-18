@@ -1,0 +1,124 @@
+{
+      "description": "Storage rack for AINN example build",
+      "tags": [],
+      "leafs": [
+        {
+          "tags": [],
+          "link_per_spine_count": 2,
+          "redundancy_protocol": "esi",
+          "leaf_leaf_link_speed": null,
+          "leaf_leaf_l3_link_count": 0,
+          "leaf_leaf_l3_link_speed": null,
+          "link_per_spine_speed": {
+            "value": 100,
+            "unit": "G"
+          },
+          "label": "leaf",
+          "leaf_leaf_l3_link_port_channel_id": 0,
+          "leaf_leaf_link_port_channel_id": 0,
+          "logical_device": "AOS-32x100-2",
+          "leaf_leaf_link_count": 0,
+          "mlag_vlan_id": 0
+        }
+      ],
+      "logical_devices": [
+        {
+          "id": "01-ainn-4x100G-host",
+          "display_name": "01-ainn-4x100G-host",
+          "panels": [
+            {
+              "port_groups": [
+                {
+                  "roles": [
+                    "leaf",
+                    "access"
+                  ],
+                  "count": 4,
+                  "speed": {
+                    "value": 100,
+                    "unit": "G"
+                  }
+                }
+              ],
+              "port_indexing": {
+                "schema": "absolute",
+                "order": "T-B, L-R",
+                "start_index": 1
+              },
+              "panel_layout": {
+                "row_count": 1,
+                "column_count": 4
+              }
+            }
+          ]
+        },
+        {
+          "id": "AOS-32x100-2",
+          "display_name": "AOS-32x100-2",
+          "panels": [
+            {
+              "port_groups": [
+                {
+                  "roles": [
+                    "superspine",
+                    "unused",
+                    "leaf",
+                    "generic",
+                    "peer",
+                    "access",
+                    "spine"
+                  ],
+                  "count": 32,
+                  "speed": {
+                    "value": 100,
+                    "unit": "G"
+                  }
+                }
+              ],
+              "port_indexing": {
+                "schema": "absolute",
+                "order": "T-B, L-R",
+                "start_index": 1
+              },
+              "panel_layout": {
+                "row_count": 2,
+                "column_count": 16
+              }
+            }
+          ]
+        }
+      ],
+      "access_switches": [],
+      "preferences": {},
+      "fabric_connectivity_design": "l3clos",
+      "id": "01-ainn-storage",
+      "generic_systems": [
+        {
+          "tags": [],
+          "loopback": "disabled",
+          "asn_domain": "disabled",
+          "port_channel_id_max": 0,
+          "label": "stor-host",
+          "count": 12,
+          "management_level": "unmanaged",
+          "logical_device": "01-ainn-4x100G-host",
+          "links": [
+            {
+              "label": "lag",
+              "target_switch_label": "leaf",
+              "link_per_switch_count": 2,
+              "link_speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "attachment_type": "dualAttached",
+              "lag_mode": "lacp_active",
+              "switch_peer": null,
+              "tags": []
+            }
+          ],
+          "port_channel_id_min": 0
+        }
+      ],
+      "display_name": "01-ainn-storage"
+    }

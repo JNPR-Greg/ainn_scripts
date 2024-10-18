@@ -1,0 +1,1844 @@
+{
+  "label": "Juniper_QFX5230-64CD____AOS-64x100-2",
+  "device_profile_id": "Juniper_QFX5230-64CD_Junos",
+  "logical_device_id": "AOS-64x100-2",
+  "id": "Juniper_QFX5230-64CD____AOS-64x100-2",
+  "interfaces": [
+    {
+      "name": "et-0/0/0",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 1,
+      "state": "active",
+      "mapping": [
+        1,
+        7,
+        1,
+        1,
+        1
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 0, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/1",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 2,
+      "state": "active",
+      "mapping": [
+        2,
+        7,
+        1,
+        1,
+        2
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 1, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/2",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 3,
+      "state": "active",
+      "mapping": [
+        3,
+        7,
+        1,
+        1,
+        3
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 2, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/3",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 4,
+      "state": "active",
+      "mapping": [
+        4,
+        7,
+        1,
+        1,
+        4
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 3, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/4",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 5,
+      "state": "active",
+      "mapping": [
+        5,
+        7,
+        1,
+        1,
+        5
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 4, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/5",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 6,
+      "state": "active",
+      "mapping": [
+        6,
+        7,
+        1,
+        1,
+        6
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 5, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/6",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 7,
+      "state": "active",
+      "mapping": [
+        7,
+        7,
+        1,
+        1,
+        7
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 6, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/7",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 8,
+      "state": "active",
+      "mapping": [
+        8,
+        7,
+        1,
+        1,
+        8
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 7, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/8",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 9,
+      "state": "active",
+      "mapping": [
+        9,
+        7,
+        1,
+        1,
+        9
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 8, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/9",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 10,
+      "state": "active",
+      "mapping": [
+        10,
+        7,
+        1,
+        1,
+        10
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 9, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/10",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 11,
+      "state": "active",
+      "mapping": [
+        11,
+        7,
+        1,
+        1,
+        11
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 10, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/11",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 12,
+      "state": "active",
+      "mapping": [
+        12,
+        7,
+        1,
+        1,
+        12
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 11, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/12",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 13,
+      "state": "active",
+      "mapping": [
+        13,
+        7,
+        1,
+        1,
+        13
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 12, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/13",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 14,
+      "state": "active",
+      "mapping": [
+        14,
+        7,
+        1,
+        1,
+        14
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 13, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/14",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 15,
+      "state": "active",
+      "mapping": [
+        15,
+        7,
+        1,
+        1,
+        15
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 14, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/15",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 16,
+      "state": "active",
+      "mapping": [
+        16,
+        7,
+        1,
+        1,
+        16
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 15, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/16",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 17,
+      "state": "active",
+      "mapping": [
+        17,
+        7,
+        1,
+        1,
+        17
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 16, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/17",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 18,
+      "state": "active",
+      "mapping": [
+        18,
+        7,
+        1,
+        1,
+        18
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 17, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/18",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 19,
+      "state": "active",
+      "mapping": [
+        19,
+        7,
+        1,
+        1,
+        19
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 18, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/19",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 20,
+      "state": "active",
+      "mapping": [
+        20,
+        7,
+        1,
+        1,
+        20
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 19, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/20",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 21,
+      "state": "active",
+      "mapping": [
+        21,
+        7,
+        1,
+        1,
+        21
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 20, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/21",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 22,
+      "state": "active",
+      "mapping": [
+        22,
+        7,
+        1,
+        1,
+        22
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 21, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/22",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 23,
+      "state": "active",
+      "mapping": [
+        23,
+        7,
+        1,
+        1,
+        23
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 22, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/23",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 24,
+      "state": "active",
+      "mapping": [
+        24,
+        7,
+        1,
+        1,
+        24
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 23, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/24",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 25,
+      "state": "active",
+      "mapping": [
+        25,
+        7,
+        1,
+        1,
+        25
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 24, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/25",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 26,
+      "state": "active",
+      "mapping": [
+        26,
+        7,
+        1,
+        1,
+        26
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 25, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/26",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 27,
+      "state": "active",
+      "mapping": [
+        27,
+        7,
+        1,
+        1,
+        27
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 26, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/27",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 28,
+      "state": "active",
+      "mapping": [
+        28,
+        7,
+        1,
+        1,
+        28
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 27, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/28",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 29,
+      "state": "active",
+      "mapping": [
+        29,
+        7,
+        1,
+        1,
+        29
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 28, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/29",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 30,
+      "state": "active",
+      "mapping": [
+        30,
+        7,
+        1,
+        1,
+        30
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 29, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/30",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 31,
+      "state": "active",
+      "mapping": [
+        31,
+        7,
+        1,
+        1,
+        31
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 30, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/31",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 32,
+      "state": "active",
+      "mapping": [
+        32,
+        7,
+        1,
+        1,
+        32
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 31, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/32",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 33,
+      "state": "active",
+      "mapping": [
+        33,
+        7,
+        1,
+        1,
+        33
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 32, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/33",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 34,
+      "state": "active",
+      "mapping": [
+        34,
+        7,
+        1,
+        1,
+        34
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 33, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/34",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 35,
+      "state": "active",
+      "mapping": [
+        35,
+        7,
+        1,
+        1,
+        35
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 34, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/35",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 36,
+      "state": "active",
+      "mapping": [
+        36,
+        7,
+        1,
+        1,
+        36
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 35, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/36",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 37,
+      "state": "active",
+      "mapping": [
+        37,
+        7,
+        1,
+        1,
+        37
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 36, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/37",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 38,
+      "state": "active",
+      "mapping": [
+        38,
+        7,
+        1,
+        1,
+        38
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 37, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/38",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 39,
+      "state": "active",
+      "mapping": [
+        39,
+        7,
+        1,
+        1,
+        39
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 38, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/39",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 40,
+      "state": "active",
+      "mapping": [
+        40,
+        7,
+        1,
+        1,
+        40
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 39, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/40",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 41,
+      "state": "active",
+      "mapping": [
+        41,
+        7,
+        1,
+        1,
+        41
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 40, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/41",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 42,
+      "state": "active",
+      "mapping": [
+        42,
+        7,
+        1,
+        1,
+        42
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 41, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/42",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 43,
+      "state": "active",
+      "mapping": [
+        43,
+        7,
+        1,
+        1,
+        43
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 42, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/43",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 44,
+      "state": "active",
+      "mapping": [
+        44,
+        7,
+        1,
+        1,
+        44
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 43, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/44",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 45,
+      "state": "active",
+      "mapping": [
+        45,
+        7,
+        1,
+        1,
+        45
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 44, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/45",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 46,
+      "state": "active",
+      "mapping": [
+        46,
+        7,
+        1,
+        1,
+        46
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 45, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/46",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 47,
+      "state": "active",
+      "mapping": [
+        47,
+        7,
+        1,
+        1,
+        47
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 46, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/47",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 48,
+      "state": "active",
+      "mapping": [
+        48,
+        7,
+        1,
+        1,
+        48
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 47, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/48",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 49,
+      "state": "active",
+      "mapping": [
+        49,
+        7,
+        1,
+        1,
+        49
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 48, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/49",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 50,
+      "state": "active",
+      "mapping": [
+        50,
+        7,
+        1,
+        1,
+        50
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 49, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/50",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 51,
+      "state": "active",
+      "mapping": [
+        51,
+        7,
+        1,
+        1,
+        51
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 50, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/51",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 52,
+      "state": "active",
+      "mapping": [
+        52,
+        7,
+        1,
+        1,
+        52
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 51, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/52",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 53,
+      "state": "active",
+      "mapping": [
+        53,
+        7,
+        1,
+        1,
+        53
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 52, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/53",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 54,
+      "state": "active",
+      "mapping": [
+        54,
+        7,
+        1,
+        1,
+        54
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 53, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/54",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 55,
+      "state": "active",
+      "mapping": [
+        55,
+        7,
+        1,
+        1,
+        55
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 54, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/55",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 56,
+      "state": "active",
+      "mapping": [
+        56,
+        7,
+        1,
+        1,
+        56
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 55, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/56",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 57,
+      "state": "active",
+      "mapping": [
+        57,
+        7,
+        1,
+        1,
+        57
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 56, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/57",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 58,
+      "state": "active",
+      "mapping": [
+        58,
+        7,
+        1,
+        1,
+        58
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 57, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/58",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 59,
+      "state": "active",
+      "mapping": [
+        59,
+        7,
+        1,
+        1,
+        59
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 58, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/59",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 60,
+      "state": "active",
+      "mapping": [
+        60,
+        7,
+        1,
+        1,
+        60
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 59, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/60",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 61,
+      "state": "active",
+      "mapping": [
+        61,
+        7,
+        1,
+        1,
+        61
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 60, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/61",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 62,
+      "state": "active",
+      "mapping": [
+        62,
+        7,
+        1,
+        1,
+        62
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 61, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/62",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 63,
+      "state": "active",
+      "mapping": [
+        63,
+        7,
+        1,
+        1,
+        63
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 62, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/63",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 64,
+      "state": "active",
+      "mapping": [
+        64,
+        7,
+        1,
+        1,
+        64
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"breakout\": false, \"fpc\": 0, \"pic\": 0, \"port\": 63, \"speed\": \"\"}, \"interface\": {\"speed\": \"100g\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/64",
+      "roles": [
+        "unused"
+      ],
+      "position": 65,
+      "state": "active",
+      "mapping": [
+        65,
+        1,
+        1,
+        null,
+        null
+      ],
+      "speed": {
+        "value": 10,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"speed\": \"\"}, \"interface\": {\"speed\": \"\"}}"
+      }
+    },
+    {
+      "name": "et-0/0/65",
+      "roles": [
+        "unused"
+      ],
+      "position": 66,
+      "state": "active",
+      "mapping": [
+        66,
+        1,
+        1,
+        null,
+        null
+      ],
+      "speed": {
+        "value": 10,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\"global\": {\"speed\": \"\"}, \"interface\": {\"speed\": \"\"}}"
+      }
+    }
+  ]
+}

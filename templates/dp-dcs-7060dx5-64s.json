@@ -1,0 +1,2850 @@
+{
+  "selector": {
+    "os": "EOS",
+    "os_version": ".*",
+    "manufacturer": "Arista",
+    "model": "DCS-7060DX5-64S"
+  },
+  "device_profile_type": "monolithic",
+  "dual_routing_engine": false,
+  "software_capabilities": {
+    "onie": false,
+    "lxc_support": false,
+    "config_apply_support": "incremental"
+  },
+  "reference_design_capabilities": {
+    "datacenter": "full_support",
+    "freeform": "disabled"
+  },
+  "hardware_capabilities": {
+    "asic": "TH4",
+    "ecmp_limit": 128,
+    "ram": 8,
+    "cpu": "x86",
+    "form_factor": "2RU",
+    "userland": 32
+  },
+  "predefined": false,
+  "slot_count": 0,
+  "ports": [
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet1",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet1",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 1,
+      "port_id": 1,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 1,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet2",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet2",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 1,
+      "port_id": 2,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 2,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet3",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet3",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 2,
+      "port_id": 3,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 3,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet4",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet4",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 2,
+      "port_id": 4,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 4,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet5",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet5",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 3,
+      "port_id": 5,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 5,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet6",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet6",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 3,
+      "port_id": 6,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 6,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet7",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet7",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 4,
+      "port_id": 7,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 7,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet8",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet8",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 4,
+      "port_id": 8,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 8,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet9",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet9",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 5,
+      "port_id": 9,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 9,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet10",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet10",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 5,
+      "port_id": 10,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 10,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet11",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet11",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 6,
+      "port_id": 11,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 11,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet12",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet12",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 6,
+      "port_id": 12,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 12,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet13",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet13",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 7,
+      "port_id": 13,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 13,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet14",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet14",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 7,
+      "port_id": 14,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 14,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet15",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet15",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 8,
+      "port_id": 15,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 15,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet16",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet16",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 8,
+      "port_id": 16,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 16,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet17",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet17",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 9,
+      "port_id": 17,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 17,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet18",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet18",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 9,
+      "port_id": 18,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 18,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet19",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet19",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 10,
+      "port_id": 19,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 19,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet20",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet20",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 10,
+      "port_id": 20,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 20,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet21",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet21",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 11,
+      "port_id": 21,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 21,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet22",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet22",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 11,
+      "port_id": 22,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 22,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet23",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet23",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 12,
+      "port_id": 23,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 23,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet24",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet24",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 12,
+      "port_id": 24,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 24,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet25",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet25",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 13,
+      "port_id": 25,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 25,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet26",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet26",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 13,
+      "port_id": 26,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 26,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet27",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet27",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 14,
+      "port_id": 27,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 27,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet28",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet28",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 14,
+      "port_id": 28,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 28,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet29",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet29",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 15,
+      "port_id": 29,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 29,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet30",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet30",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 15,
+      "port_id": 30,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 30,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet31",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet31",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 16,
+      "port_id": 31,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 31,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 1,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet32",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet32",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 16,
+      "port_id": 32,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 32,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet33",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet33",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 1,
+      "port_id": 33,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 33,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet34",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet34",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 1,
+      "port_id": 34,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 34,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet35",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet35",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 2,
+      "port_id": 35,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 35,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet36",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet36",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 2,
+      "port_id": 36,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 36,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet37",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet37",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 3,
+      "port_id": 37,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 37,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet38",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet38",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 3,
+      "port_id": 38,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 38,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet39",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet39",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 4,
+      "port_id": 39,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 39,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet40",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet40",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 4,
+      "port_id": 40,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 40,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet41",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet41",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 5,
+      "port_id": 41,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 41,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet42",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet42",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 5,
+      "port_id": 42,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 42,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet43",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet43",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 6,
+      "port_id": 43,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 43,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet44",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet44",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 6,
+      "port_id": 44,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 44,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet45",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet45",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 7,
+      "port_id": 45,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 45,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet46",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet46",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 7,
+      "port_id": 46,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 46,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet47",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet47",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 8,
+      "port_id": 47,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 47,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet48",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet48",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 8,
+      "port_id": 48,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 48,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet49",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet49",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 9,
+      "port_id": 49,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 49,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet50",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet50",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 9,
+      "port_id": 50,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 50,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet51",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet51",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 10,
+      "port_id": 51,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 51,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet52",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet52",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 10,
+      "port_id": 52,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 52,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet53",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet53",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 11,
+      "port_id": 53,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 53,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet54",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet54",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 11,
+      "port_id": 54,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 54,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet55",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet55",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 12,
+      "port_id": 55,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 55,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet56",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet56",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 12,
+      "port_id": 56,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 56,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet57",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet57",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 13,
+      "port_id": 57,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 57,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet58",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet58",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 13,
+      "port_id": 58,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 58,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet59",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet59",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 14,
+      "port_id": 59,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 59,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet60",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet60",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 14,
+      "port_id": 60,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 60,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet61",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet61",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 15,
+      "port_id": 61,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 61,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet62",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet62",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 15,
+      "port_id": 62,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 62,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet63",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet63",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 16,
+      "port_id": 63,
+      "row_id": 1,
+      "failure_domain_id": 1,
+      "display_id": 63,
+      "slot_id": 0
+    },
+    {
+      "connector_type": "QSFPDD",
+      "panel_id": 2,
+      "transformations": [
+        {
+          "transformation_id": 1,
+          "is_default": true,
+          "interfaces": [
+            {
+              "name": "Ethernet64",
+              "interface_id": 1,
+              "speed": {
+                "value": 400,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"400g\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "transformation_id": 2,
+          "is_default": false,
+          "interfaces": [
+            {
+              "name": "Ethernet64",
+              "interface_id": 1,
+              "speed": {
+                "value": 100,
+                "unit": "G"
+              },
+              "state": "active",
+              "setting": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+            }
+          ]
+        }
+      ],
+      "column_id": 16,
+      "port_id": 64,
+      "row_id": 2,
+      "failure_domain_id": 1,
+      "display_id": 64,
+      "slot_id": 0
+    }
+  ],
+  "label": "Arista DCS-7060DX5-64S",
+  "id": "Arista_DCS-7060DX5-64S",
+  "physical_device": true
+}

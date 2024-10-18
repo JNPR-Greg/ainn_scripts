@@ -1,0 +1,1802 @@
+{
+  "label": "Arista_DCS-7060DX5-64S_EOS____AOS-64x100-2",
+  "device_profile_id": "Arista_DCS-7060DX5-64S",
+  "logical_device_id": "AOS-64x100-2",
+  "id": "Arista_DCS-7060DX5-64S_EOS____AOS-64x100-2",
+  "interfaces": [
+    {
+      "name": "Ethernet1",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 1,
+      "state": "active",
+      "mapping": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet2",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 2,
+      "state": "active",
+      "mapping": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet3",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 3,
+      "state": "active",
+      "mapping": [
+        3,
+        2,
+        1,
+        1,
+        3
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet4",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 4,
+      "state": "active",
+      "mapping": [
+        4,
+        2,
+        1,
+        1,
+        4
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet5",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 5,
+      "state": "active",
+      "mapping": [
+        5,
+        2,
+        1,
+        1,
+        5
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet6",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 6,
+      "state": "active",
+      "mapping": [
+        6,
+        2,
+        1,
+        1,
+        6
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet7",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 7,
+      "state": "active",
+      "mapping": [
+        7,
+        2,
+        1,
+        1,
+        7
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet8",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 8,
+      "state": "active",
+      "mapping": [
+        8,
+        2,
+        1,
+        1,
+        8
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet9",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 9,
+      "state": "active",
+      "mapping": [
+        9,
+        2,
+        1,
+        1,
+        9
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet10",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 10,
+      "state": "active",
+      "mapping": [
+        10,
+        2,
+        1,
+        1,
+        10
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet11",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 11,
+      "state": "active",
+      "mapping": [
+        11,
+        2,
+        1,
+        1,
+        11
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet12",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 12,
+      "state": "active",
+      "mapping": [
+        12,
+        2,
+        1,
+        1,
+        12
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet13",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 13,
+      "state": "active",
+      "mapping": [
+        13,
+        2,
+        1,
+        1,
+        13
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet14",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 14,
+      "state": "active",
+      "mapping": [
+        14,
+        2,
+        1,
+        1,
+        14
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet15",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 15,
+      "state": "active",
+      "mapping": [
+        15,
+        2,
+        1,
+        1,
+        15
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet16",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 16,
+      "state": "active",
+      "mapping": [
+        16,
+        2,
+        1,
+        1,
+        16
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet17",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 17,
+      "state": "active",
+      "mapping": [
+        17,
+        2,
+        1,
+        1,
+        17
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet18",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 18,
+      "state": "active",
+      "mapping": [
+        18,
+        2,
+        1,
+        1,
+        18
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet19",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 19,
+      "state": "active",
+      "mapping": [
+        19,
+        2,
+        1,
+        1,
+        19
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet20",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 20,
+      "state": "active",
+      "mapping": [
+        20,
+        2,
+        1,
+        1,
+        20
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet21",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 21,
+      "state": "active",
+      "mapping": [
+        21,
+        2,
+        1,
+        1,
+        21
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet22",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 22,
+      "state": "active",
+      "mapping": [
+        22,
+        2,
+        1,
+        1,
+        22
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet23",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 23,
+      "state": "active",
+      "mapping": [
+        23,
+        2,
+        1,
+        1,
+        23
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet24",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 24,
+      "state": "active",
+      "mapping": [
+        24,
+        2,
+        1,
+        1,
+        24
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet25",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 25,
+      "state": "active",
+      "mapping": [
+        25,
+        2,
+        1,
+        1,
+        25
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet26",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 26,
+      "state": "active",
+      "mapping": [
+        26,
+        2,
+        1,
+        1,
+        26
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet27",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 27,
+      "state": "active",
+      "mapping": [
+        27,
+        2,
+        1,
+        1,
+        27
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet28",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 28,
+      "state": "active",
+      "mapping": [
+        28,
+        2,
+        1,
+        1,
+        28
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet29",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 29,
+      "state": "active",
+      "mapping": [
+        29,
+        2,
+        1,
+        1,
+        29
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet30",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 30,
+      "state": "active",
+      "mapping": [
+        30,
+        2,
+        1,
+        1,
+        30
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet31",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 31,
+      "state": "active",
+      "mapping": [
+        31,
+        2,
+        1,
+        1,
+        31
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet32",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 32,
+      "state": "active",
+      "mapping": [
+        32,
+        2,
+        1,
+        1,
+        32
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet33",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 33,
+      "state": "active",
+      "mapping": [
+        33,
+        2,
+        1,
+        1,
+        33
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet34",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 34,
+      "state": "active",
+      "mapping": [
+        34,
+        2,
+        1,
+        1,
+        34
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet35",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 35,
+      "state": "active",
+      "mapping": [
+        35,
+        2,
+        1,
+        1,
+        35
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet36",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 36,
+      "state": "active",
+      "mapping": [
+        36,
+        2,
+        1,
+        1,
+        36
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet37",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 37,
+      "state": "active",
+      "mapping": [
+        37,
+        2,
+        1,
+        1,
+        37
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet38",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 38,
+      "state": "active",
+      "mapping": [
+        38,
+        2,
+        1,
+        1,
+        38
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet39",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 39,
+      "state": "active",
+      "mapping": [
+        39,
+        2,
+        1,
+        1,
+        39
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet40",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 40,
+      "state": "active",
+      "mapping": [
+        40,
+        2,
+        1,
+        1,
+        40
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet41",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 41,
+      "state": "active",
+      "mapping": [
+        41,
+        2,
+        1,
+        1,
+        41
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet42",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 42,
+      "state": "active",
+      "mapping": [
+        42,
+        2,
+        1,
+        1,
+        42
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet43",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 43,
+      "state": "active",
+      "mapping": [
+        43,
+        2,
+        1,
+        1,
+        43
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet44",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 44,
+      "state": "active",
+      "mapping": [
+        44,
+        2,
+        1,
+        1,
+        44
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet45",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 45,
+      "state": "active",
+      "mapping": [
+        45,
+        2,
+        1,
+        1,
+        45
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet46",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 46,
+      "state": "active",
+      "mapping": [
+        46,
+        2,
+        1,
+        1,
+        46
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet47",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 47,
+      "state": "active",
+      "mapping": [
+        47,
+        2,
+        1,
+        1,
+        47
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet48",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 48,
+      "state": "active",
+      "mapping": [
+        48,
+        2,
+        1,
+        1,
+        48
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet49",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 49,
+      "state": "active",
+      "mapping": [
+        49,
+        2,
+        1,
+        1,
+        49
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet50",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 50,
+      "state": "active",
+      "mapping": [
+        50,
+        2,
+        1,
+        1,
+        50
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet51",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 51,
+      "state": "active",
+      "mapping": [
+        51,
+        2,
+        1,
+        1,
+        51
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet52",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 52,
+      "state": "active",
+      "mapping": [
+        52,
+        2,
+        1,
+        1,
+        52
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet53",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 53,
+      "state": "active",
+      "mapping": [
+        53,
+        2,
+        1,
+        1,
+        53
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet54",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 54,
+      "state": "active",
+      "mapping": [
+        54,
+        2,
+        1,
+        1,
+        54
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet55",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 55,
+      "state": "active",
+      "mapping": [
+        55,
+        2,
+        1,
+        1,
+        55
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet56",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 56,
+      "state": "active",
+      "mapping": [
+        56,
+        2,
+        1,
+        1,
+        56
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet57",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 57,
+      "state": "active",
+      "mapping": [
+        57,
+        2,
+        1,
+        1,
+        57
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet58",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 58,
+      "state": "active",
+      "mapping": [
+        58,
+        2,
+        1,
+        1,
+        58
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet59",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 59,
+      "state": "active",
+      "mapping": [
+        59,
+        2,
+        1,
+        1,
+        59
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet60",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 60,
+      "state": "active",
+      "mapping": [
+        60,
+        2,
+        1,
+        1,
+        60
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet61",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 61,
+      "state": "active",
+      "mapping": [
+        61,
+        2,
+        1,
+        1,
+        61
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet62",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 62,
+      "state": "active",
+      "mapping": [
+        62,
+        2,
+        1,
+        1,
+        62
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet63",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 63,
+      "state": "active",
+      "mapping": [
+        63,
+        2,
+        1,
+        1,
+        63
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    },
+    {
+      "name": "Ethernet64",
+      "roles": [
+        "superspine",
+        "unused",
+        "leaf",
+        "generic",
+        "peer",
+        "access",
+        "spine"
+      ],
+      "position": 64,
+      "state": "active",
+      "mapping": [
+        64,
+        2,
+        1,
+        1,
+        64
+      ],
+      "speed": {
+        "value": 100,
+        "unit": "G"
+      },
+      "setting": {
+        "param": "{\n  \"interface\": {\n    \"speed\": \"100gfull\"\n  },\n  \"global\": {\n    \"port_group\": 0,\n    \"select\": \"\"\n  }\n}"
+      }
+    }
+  ],
+  "created_at": "1970-01-01T00:00:00.000000Z",
+  "last_modified_at": "2024-10-09T13:57:16.354671Z"
+}
